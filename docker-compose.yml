@@ -1,9 +1,9 @@
 version: '3'
 services: 
   xrayr: 
-    image: crackair/xrayr:latest
+    image: hiepvq/xrayr:latest
     ports:
       - 80:80
     volumes:
-      - ./config:/etc/XrayR/ # 映射配置文件夹
+      - ./config:/etc/XrayR/
     restart: always
